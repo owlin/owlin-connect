@@ -132,6 +132,7 @@ var owlin = function(login){
             });
         }
     }
+    return this
 }
 
 module.exports = owlin
