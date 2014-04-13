@@ -1,0 +1,14 @@
+{
+    "name" : "Owlin Connector",
+    "author" : { 
+        "name" : "Richard Kraaijenhagen",
+        "email" : "richard@owlin.com",
+        "url" : "http://owlin.com/"
+    },
+    "version" : "0.0.0",
+    "main" : "./owlin.js",
+    "dependencies" : {
+        "request" : "*",
+        "node.extend" : "*"
+    }
+}
