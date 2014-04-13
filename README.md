@@ -2,7 +2,9 @@
 
 ## Installing
 You can install the Owlin NodeJS API Connector with the Node Package Manger.
-```npm install owlin-connect```
+```
+npm install owlin-connect
+```
 
 ## Usage example
 The foll__owlin__g code example will retrieve a list of articles matching an apple filter, for the past few days, for other API calls, checkout the [Owlin API docs](https://github.com/owlin/owlin-apidocs).
