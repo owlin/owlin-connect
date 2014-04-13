@@ -7,7 +7,7 @@ npm install owlin-connect
 ```
 
 ## Usage example
-The foll__owlin__g code example will retrieve a list of articles matching an apple filter, for the past few days, for other API calls, checkout the [Owlin API docs](https://github.com/owlin/owlin-apidocs).
+The foll__owlin__g code example will retrieve a list of articles matching an apple search. For other API calls, checkout the [Owlin API docs](https://github.com/owlin/owlin-apidocs).
 
 ```Javascript
 const owlin = require('owlin-connect');
