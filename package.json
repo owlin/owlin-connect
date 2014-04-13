@@ -5,7 +5,7 @@
         "email" : "richard@owlin.com",
         "url" : "http://owlin.com/"
     },
-    "version" : "0.0.2",
+    "version" : "0.0.3",
     "main" : "./owlin.js",
     "dependencies" : {
         "request" : "*",
