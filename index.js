@@ -33,8 +33,6 @@ var owlin = function(login){
             //var args= that.non_recursive_dict(input.args);
             var args = input.args
 
-            console.log(args);
-
             // Make the HTTP Request
             request.get({
                 url                 : host+"/api/v1/"+input.method,
@@ -42,7 +40,6 @@ var owlin = function(login){
                 json                : args,
                 rejectUnauthorized  : false
             }, function(err, request, body){
-                console.log(body);
                 if(callback) callback(null, body)
             });
         }
